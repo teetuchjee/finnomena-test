@@ -29,8 +29,8 @@ const FundTable: React.FC<Props> = ({
     },
     {
       title: 'อันดับของกองทุน',
-      render: (_, fund) => {
-        return <Typography>{fund?.nav_return}</Typography>
+      render: (_, fund, index) => {
+        return <Typography>{(page - 1) * pageSize + index + 1}</Typography>
       },
     },
     {

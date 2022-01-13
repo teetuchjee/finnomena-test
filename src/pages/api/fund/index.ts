@@ -38,7 +38,7 @@ function pagination(
       page_total: lastPage,
     },
     period: period,
-    data: data.slice(from, to),
+    data: data.slice(from - 1, to),
   }
 }
 

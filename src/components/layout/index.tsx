@@ -28,7 +28,7 @@ const BaseLayout: React.FC<Props> = ({
   return (
     <Fragment>
       <Head>
-        <title>{'Finomena test'}</title>
+        <title>{'Finnomena test'}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
