@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Kanit;
+  src: url('/font/Kanit-Light.ttf');
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('/font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: KanitBold;
+  src: url('/font/Kanit-Medium.ttf');
+}
+
+@font-face {
+  font-family: OpenSansBold;
+  src: url('/font/OpenSans-Bold-ttf');
+}
+
+.ant-form-horizontal .ant-form-item-with-help.ant-form-item-has-success {
+  min-height: 60px;
+}
+
+.ant-form-vertical .ant-form-item-with-help.ant-form-item-has-success {
+  min-height: 90px;
+}
+
+.content-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.ant-form-item-explain-error {
+  margin-top: 0.5rem;
+}
+
+body {
+  font-family: Kanit, OpenSans;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-secondary {
+  background-color: #f2c94c;
+  border: #f2c94c;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: rgba(242, 201, 76, 0.8);
+}
+
+.active{
+  background-color: #f2c94c;
+  padding: 12px;
+  border-radius: 50px;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 476px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 476px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+    max-width: 100%;
+  }
+}
